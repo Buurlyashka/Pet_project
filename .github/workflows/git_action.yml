@@ -19,9 +19,9 @@ jobs:
           echo test, and deploy your project.
     - name: Execure few commands
       run: |
-          echo Hello Message1
-          echo Hello Message2
-           echo "Aplication name: ${{env.APPLICATION_NAME}}
+          echo "Hello Message1"
+          echo "Hello Message2"
+           echo "Aplication name: ${{env.APPLICATION_NAME}}"
            
   my_deploy:
       runs-on: ubuntu-22.04
