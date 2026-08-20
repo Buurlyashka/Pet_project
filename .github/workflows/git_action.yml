@@ -17,7 +17,7 @@ jobs:
           echo test, and deploy your project.
   
   my_deploy:
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Print Text
-        run: : echo Pisi-Kaki
+      runs-on: ubuntu-22.04
+      steps:
+        - name: Print Text
+          run: echo Pisi-Kaki
